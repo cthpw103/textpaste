@@ -19,7 +19,7 @@ $seed = str_split('abcdefghijklmnopqrstuvwxyz'
 shuffle($seed);
 $rand = '';
 foreach (array_rand($seed, 5) as $k) $rand .= $seed[$k];
-if(isset($_POST['typed'])) {
+if(isset($_POST['paste'])) {
   $my_file = $rand.'.txt';
   $handle = fopen($my_file, 'w') or die('Cannot open file: '.$my_file);
   $txt = htmlspecialchars($_POST['paste']);
