@@ -5,7 +5,7 @@
   <h1>TextPaste: A simple way to create and share .txt files. Coded by internetperson.</h1>
 
 <form method="post" action="">
-       <TEXTAREA name="typed" rows="20" cols="80" value="<?= isset($_POST['typed']) ? htmlspecialchars($_POST['typed']) : '' ?>" >
+       <TEXTAREA name="typed" rows="20" cols="80" value="<?= isset($_POST['paste']) ? htmlspecialchars($_POST['paste']) : '' ?>" >
    
    </TEXTAREA> <!–– thanks to @nekofurball for fixing this for me! ––>
     
