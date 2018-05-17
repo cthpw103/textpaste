@@ -1,12 +1,12 @@
 <html>
 <head><title>TextPaste</title></head>
 <body>
-  <!–– Use how you want! Just be sure to credit me! ––>
+  <!–– Use how you want! Just be sure to credit me !!––>
   <h1>TextPaste: A simple way to create and share .txt files. Coded by internetperson.</h1>
 <form method="post" action="">
        <TEXTAREA name="typed" rows="20" cols="80" value="<?= isset($_POST['typed']) ? htmlspecialchars($_POST['typed']) : '' ?>" >
    
-   </TEXTAREA> <!–– thanks to @nekofurball for fixing this for me! ––>
+   </TEXTAREA> <!–– thanks to @nekofurball for fixing this for me! !––>
     
     <input type="submit" value="Paste!" />
   </form>
